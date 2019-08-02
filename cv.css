@@ -3,6 +3,13 @@
     color: white;
     width: 15rem;
     text-align: center;
+    flex: content;
+    position: relative;
+    z-index: 1;
+}
+header {
+    position: relative;
+    z-index: 1;
 }
 .line {
     color: white;
@@ -12,13 +19,85 @@ body {
     background-color: black;
 }
 .round_skills {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    float: right;
+    align-items: center;
+    margin-left: 30rem;
+    margin-right: auto;
+    margin-top: -1000rem;
+    position: relative;
+    z-index: 2;
+    
+    
 }
-p {
+.round_contact {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: auto;
+    
+}
+.round_experiences {
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25rem;
+    margin-right: auto;
+    margin-top: -75rem;
+    z-index: 3;
+    
+}
+.round_formations {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25rem;
+    margin-right: auto;
+    
+}
+.round_hobbies {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25rem;
+    margin-right: auto;
+    
+}
+.name, .job {
     margin: 1rem;
+}
+.skill {
+    color: white;  
+}
+link {
+    color: white;
+}
+.experiences {
+    color: white;
+}
+.formation {
+    color: white;
+}
+.hobby {
+    color: white;
 }
