@@ -8,8 +8,7 @@ body {
     text-align: center;
     flex: content;
     position: relative;
-    z-index: 1;
-    
+    z-index: 1;   
 }
 .line {
     color: white;
@@ -27,8 +26,7 @@ body {
     margin-top: -1000rem;
     position: relative;
     z-index: 2;
-    
-    
+    opacity: .70; 
 }
 .round_contact {
     height: 200px;
