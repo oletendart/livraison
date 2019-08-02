@@ -7,8 +7,10 @@ body {
     width: 15rem;
     text-align: center;
     flex: content;
-    position: relative;
-    z-index: 1;   
+    position: absolute;
+    z-index: 1; 
+    background-color: red;
+    left: 2.5rem;  
 }
 .line {
     color: white;
@@ -17,60 +19,64 @@ body {
 .round_skills {
     height: 200px;
     width: 200px;
-    background-color: #bbb;
+    background-color:red;
     border-radius: 50%;
     display: inline-block;
     align-items: center;
-    margin-left: 30rem;
-    margin-right: auto;
-    margin-top: -1000rem;
-    position: relative;
+    left: 40rem;
+    right: auto;
+    top: 5rem;
+    position: absolute;
     z-index: 2;
     opacity: .70; 
 }
 .round_contact {
     height: 200px;
     width: 200px;
-    background-color: #bbb;
+    background-color: blue;
     border-radius: 50%;
     display: inline-block;
     flex-direction: row;
-    align-items: center;
-    margin-left: 5rem;
-    margin-right: auto;
+    position: absolute;
+    left: 3rem;
+    top: 10rem;
+    
     
 }
 .round_experiences {
     height: 200px;
     width: 200px;
-    background-color: grey;
+    background-color:green;
     border-radius: 50%;
     display: inline-block;
     flex-direction: row;
     align-items: center;
-    margin-left: 25rem;
-    margin-right: auto;
-    margin-top: -75rem;
+    margin-left: 32rem;
+    right: auto;
+    margin-top: -70rem;
     z-index: 3;
+    opacity: .7;
     
 }
 .round_formations {
     height: 200px;
     width: 200px;
-    background-color: #bbb;
+    background-color: magenta;
     border-radius: 50%;
     display: inline-block;
     flex-direction: row;
     align-items: center;
-    margin-left: 40rem;
-    margin-right: auto;
-    margin-top: -80rem;
+    margin-left: 24rem;
+    right: auto;
+    margin-top: -10rem;
+    z-index: 0;
+    opacity: .7;
     
 }
 .round_hobbies {
     height: 200px;
     width: 200px;
-    background-color: #bbb;
+    background-color: saddlebrown;
     border-radius: 50%;
     display: inline-block;
     flex-direction: row;
@@ -84,6 +90,7 @@ body {
 }
 .skill {
     color: white;  
+    background-color: red;
 }
 link {
     color: white;
@@ -96,4 +103,13 @@ link {
 }
 .hobby {
     color: white;
+}
+.imageprofil {
+    position: absolute;
+    z-index: 0;
+    margin-top: -35rem;
+    left: 25rem;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: -1;
 }
