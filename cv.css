@@ -1,25 +1,30 @@
-body {
+body 
+{
     background-image: url("fond.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.information {
-    border: 2px solid black;
-    color:black;
+.information /* block information */
+{
+    border: 2px solid white;
+    color:white;
     width: 15rem;
     text-align: center;
     flex: content;
     position: absolute;
     z-index: 1; 
     left: 2.5rem;  
-    background-color: mediumaquamarine;
-    font-family: 'Grenze', serif;    
+    background-color: #c7144a;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 18px;
 }
-.line {
-    color:black;
-    width: 2rem;
+.line 
+{
+    color:white;
+    width: 4rem;
 }
-.round_skills {
+.round_skills /* the different rounds */
+{
     height: 200px;
     width: 200px;
     background-color:red;
@@ -84,7 +89,8 @@ body {
     position: absolute;
     opacity: .7;
 }
-.name, .job {
+.name, .job 
+{
     margin: 1rem;
 }
 .skill {
@@ -121,7 +127,8 @@ link {
     margin-right: auto;
     margin-top: 14rem;
 }
-.imageprofil {
+.imageprofil /* different pictures */ 
+{
     position: absolute;
     z-index: 0;
     top: 7rem;
