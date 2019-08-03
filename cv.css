@@ -23,7 +23,7 @@ body {
     border-radius: 50%;
     display: inline-block;
     align-items: center;
-    left: 40rem;
+    left: 50rem;
     right: auto;
     top: 5rem;
     position: absolute;
@@ -36,11 +36,9 @@ body {
     background-color: blue;
     border-radius: 50%;
     display: inline-block;
-    flex-direction: row;
     position: absolute;
-    left: 3rem;
+    left: 5rem;
     top: 10rem;
-    
     
 }
 .round_experiences {
@@ -51,9 +49,9 @@ body {
     display: inline-block;
     flex-direction: row;
     align-items: center;
-    margin-left: 32rem;
+    margin-left: 40rem;
     right: auto;
-    margin-top: -70rem;
+    margin-top: 10rem;
     z-index: 3;
     opacity: .7;
     
@@ -64,11 +62,9 @@ body {
     background-color: magenta;
     border-radius: 50%;
     display: inline-block;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 24rem;
+    margin-left: 32rem;
     right: auto;
-    margin-top: -10rem;
+    margin-top: -32rem;
     z-index: 0;
     opacity: .7;
     
@@ -79,37 +75,86 @@ body {
     background-color: saddlebrown;
     border-radius: 50%;
     display: inline-block;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 25rem;
+    margin-left: 48rem;
     margin-right: auto;
-    
+    margin-top: -11rem;
+    position: absolute;
+    opacity: .7;
 }
 .name, .job {
     margin: 1rem;
 }
 .skill {
     color: white;  
-    background-color: red;
+    position: absolute;
+    left: 51rem;
+    right: auto;
+    top: 7rem;
+    z-index: 2;
 }
 link {
     color: white;
 }
 .experiences {
     color: white;
+    position: absolute:
 }
 .formation {
     color: white;
+    position: absolute;
 }
 .hobby {
     color: white;
+    position: absolute;
+    margin-left: 52rem;
+    margin-right: auto;
+    margin-top: -7.5rem;
 }
 .imageprofil {
     position: absolute;
     z-index: 0;
-    margin-top: -35rem;
-    left: 25rem;
+    top: 7rem;
+    left: 38rem;
     overflow: hidden;
     border-radius: 50%;
     z-index: -1;
+    width: 100px;
+    height: 100px;
+}
+.github {
+    position: absolute;
+    left: 8rem;
+    top: 15rem;
+    width: 50px;
+    height: 50px;
+}
+.twitter {
+    position: absolute;
+    left: 12rem;
+    top: 14.5rem;
+    width: 70px;
+    height: 70px;
+
+}
+.contact {
+    position: absolute;
+    left: 8rem;
+    top: 11rem;
+    color: white;
+}
+.manette {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 51rem;
+    margin-right: auto;
+    margin-top: -5rem;
+}
+.livre {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 55rem;
+    margin-right: auto;
+    margin-top: -4.7rem;
 }
